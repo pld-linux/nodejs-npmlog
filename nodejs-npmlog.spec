@@ -1,5 +1,5 @@
 %define		pkg	npmlog
-Summary:	Node.js option parsing
+Summary:	logger for npm
 Name:		nodejs-%{pkg}
 Version:	0.0.2
 Release:	1
@@ -12,12 +12,12 @@ Source0:	http://registry.npmjs.org/npmlog/-/npmlog-0.0.2.tgz
 BuildRequires:	rpmbuild(macros) >= 1.634
 BuildRequires:	sed >= 4.0
 Requires:	nodejs
-Requires:	nodejs-abbrev
+Requires:	nodejs-ansi
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-An option parsing library for Node.js and its package manager (npm).
+logger for npm.
 
 %prep
 %setup -qc
