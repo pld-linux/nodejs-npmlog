@@ -5,7 +5,7 @@ Version:	0.0.2
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/nopt
+URL:		https://github.com/isaacs/npmlog
 # download from https://github.com/isaacs/%{pkg}/tarball/%%{version}
 Source0:	http://registry.npmjs.org/npmlog/-/npmlog-0.0.2.tgz
 # Source0-md5:	bcda69b411c0d821a61bf1567772d04a
