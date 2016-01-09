@@ -1,17 +1,17 @@
 %define		pkg	npmlog
 Summary:	logger for npm
 Name:		nodejs-%{pkg}
-Version:	0.0.6
+Version:	0.1.0
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/npmlog
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	b751e3a650c052119fa66bae456c7cc7
+# Source0-md5:	d177ad9417891c752f3c6b4d8bf18fd5
+URL:		https://github.com/isaacs/npmlog
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-ansi < 0.3.0
-Requires:	nodejs-ansi >= 0.2.1
+Requires:	nodejs-ansi < 1.0.0
+Requires:	nodejs-ansi >= 0.3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
